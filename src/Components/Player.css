@@ -1,0 +1,32 @@
+.Player {
+    border-bottom: thin black solid;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.Player:hover {
+    height: 45px;
+}
+.Stats {
+    font-size: 13px;
+}
+.MarkTaken {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+.MarkTaken:hover {
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+.AddToTeam {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+.AddToTeam:hover {
+    background-color: lightgreen;
+    border-radius: 10px;
+}

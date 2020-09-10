@@ -1,0 +1,17 @@
+.MyTeamSlot {
+    padding: 10px 0px;
+    border-bottom: thick black solid;
+}
+.MyTeamSlot .MTSHeader {
+    font-weight: bold;
+}
+.RemovePlayer {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.RemovePlayer:hover {
+    background-color: red;
+}
